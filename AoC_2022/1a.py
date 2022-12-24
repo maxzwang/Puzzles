@@ -17,5 +17,5 @@ def find_max_calories(lines):
     return max(calories)
 
 if __name__ == '__main__':
-    calorie_list = read_calories('1_input')
+    calorie_list = read_calories('1_input.txt')
     print(find_max_calories(calorie_list))

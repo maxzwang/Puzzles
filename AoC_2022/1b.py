@@ -22,5 +22,5 @@ def find_top_calories(lines, n):
         
 
 if __name__ == '__main__':
-    calorie_list = read_calories('1_input')
+    calorie_list = read_calories('1_input.txt')
     print(find_top_calories(calorie_list, 3))

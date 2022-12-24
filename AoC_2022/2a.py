@@ -1,6 +1,6 @@
 input = []
 
-with open('2_input', 'r') as file:
+with open('2_input.txt', 'r') as file:
     for line in file:
         input.append(line.rstrip())
 
